@@ -1,0 +1,16 @@
+body {
+    background-image: url("images/abcbackground.png");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#login {
+    text-align: center;
+}
+img{ 
+    margin-top: 10px;
+    max-width: 600px;
+}
+div {
+    display: grid;
+    place-items: center;
+}
