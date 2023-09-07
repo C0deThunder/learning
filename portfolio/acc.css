@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: orangered;
+    font-family: "kanit", sans-serif;
+}
+h1, h2 {
+    color: #7bcac8;
+    text-align: left;
+    margin: 10px;
+    font-family: "kanit", sans-serif;
+}
+section {
+    font-size: 1.088vw;
+    width: 100vw;
+}
+.navbar {
+    z-index: 10;
+    width: 100vw;
+    height: 5vw;
+    background-color: orangered;
+    position: sticky;
+    top: 0;
+}
+.button {
+    position: absolute;
+    top: 0;
+    left: 70vw;
+    width: 10vw;
+    height: 100%;
+    background-color: orangered;
+    color: black;
+    display: inline-block;
+    font-size: 1.15rem;
+    border: none;
+    font-family: "kanit", sans-serif;
+    font-size: 1.5vw;
+}
+.home {
+    color: #7bcac8;
+}
+.pro {
+    position: absolute;
+    left: 85vw;
+    color: #7bcac8;
+}
+.home:hover {
+    background-color: #7bcac8;
+    color: black;
+}
+.pro:hover {
+    background-color: #7bcac8;
+    color: black;
+}
+.top {
+    height: 5vw;
+}
+.accom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2vw;
+    z-index: 11;
+}
+.lanbox {
+    position: relative;
+    top: 0;
+    width: 100vw;
+    height: 30vw;
+}
+.python img{
+    position: absolute;
+    left: 30vw;
+    top: 10vw;
+    width: 8vw;
+    height: 10vw;
+    background-color: #90d1cf;
+    border-radius: 5%;
+}
+.sql img{
+    position: absolute;
+    left: 40vw;
+    top: 10vw;
+    width: 8vw;
+    height: 10vw;
+    background-color: #90d1cf;
+    border-radius: 5%;
+}
+.html5 img{
+    position: absolute;
+    left: 50vw;
+    top: 10vw;
+    width: 8vw;
+    height: 10vw;
+    background-color: #90d1cf;
+    border-radius: 5%;
+}
+.css3 img{
+    position: absolute;
+    left: 60vw;
+    top: 10vw;
+    width: 8vw;
+    height: 10vw;
+    background-color: #90d1cf;
+    border-radius: 5%;
+}
+.pythonv {
+    position: absolute;
+    left: 30vw;
+    top: 10vw;
+    width: 8vw;
+    height: 10vw;
+    background-color: #90d1cf;
+    border-radius: 5%;
+    opacity: 0%;
+    color: orangered;
+    text-align: center;
+}
+.sqlv {
+    position: absolute;
+    left: 40vw;
+    top: 10vw;
+    width: 8vw;
+    height: 10vw;
+    background-color: #90d1cf;
+    border-radius: 5%;
+    opacity: 0%;
+    color: orangered;
+    text-align: center;
+}
+.html5v {
+    position: absolute;
+    left: 50vw;
+    top: 10vw;
+    width: 8vw;
+    height: 10vw;
+    background-color: #90d1cf;
+    border-radius: 5%;
+    opacity: 0%;
+    color: orangered;
+    text-align: center;
+}
+.css3v {
+    position: absolute;
+    left: 60vw;
+    top: 10vw;
+    width: 8vw;
+    height: 10vw;
+    background-color: #90d1cf;
+    border-radius: 5%;
+    opacity: 0%;
+    color: orangered;
+    text-align: center;
+}
+.pythonv:hover {
+    opacity: 100%;
+    background-color: #68bebc;
+}
+.sqlv:hover {
+    opacity: 100%;
+    background-color: #68bebc;
+}
+.html5v:hover {
+    opacity: 100%;
+    background-color: #68bebc;
+}
+.css3v:hover {
+    opacity: 100%;
+    background-color: #68bebc;
+}
+.certs {
+    position: relative;
+    height: 100vh;
+}
+.it img{
+    position: absolute;
+    height: 30vw;
+    width: 50vw;
+    left: 25vw;
+    top: 10vw;
+    background-color: white;
+}
+.off img{
+    position: absolute;
+    height: 30vw;
+    width: 50vw;
+    left: 25vw;
+    top: 50vw;
+    background-color: white;
+}
+.net img{
+    position: absolute;
+    height: 30vw;
+    width: 50vw;
+    left: 25vw;
+    top: 85vw;
+    background-color: white;
+}

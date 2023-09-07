@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "kanit", sans-serif;
+    background-image: url(images/bg2.png);
+    background-attachment: fixed;
+    background-size: 150%;
+}
+h1 {
+    color: orangered;
+}
+.navbar {
+    z-index: 10;
+    width: 100vw;
+    height: 5vw;
+    background-color: #7bcac8;
+    position: sticky;
+    top: 0;
+}
+.button {
+    position: absolute;
+    top: 0;
+    left: 70vw;
+    width: 15vw;
+    height: 100%;
+    background-color: #7bcac8;
+    color: black;
+    display: inline-block;
+    font-size: 1.15rem;
+    border: none;
+    font-family: "kanit", sans-serif;
+    font-size: 1.5vw;
+}
+.home {
+    color: orangered;
+}
+.acc {
+    position: absolute;
+    left: 85vw;
+    color: orangered;
+}
+.home:hover {
+    background-color: #68bebc;
+}
+.acc:hover {
+    background-color: #68bebc;
+}
+.pro {
+    width: 100vw;
+    height: 100vw;
+    position: relative;
+}
+.unit1 img{
+    position: absolute;
+    left: 32.5vw;
+    top: 10vw;
+    width: 15vw;
+    height: 10vw;
+    background-color: #68bebc;
+    border-radius: 5%;
+}
+.unit1d {
+    position: absolute;
+    width: 15vw;
+    top: 20vw;
+    left: 32.5vw;
+    height: 15vw;
+    background-color: #68bebc;
+    border-radius: 10%;
+    text-align: center;
+    color: orangered;
+    font-size: 20pt;
+}
+.unit2 img{
+    position: absolute;
+    width: 15vw;
+    top: 10vw;
+    right: 32.5vw;
+    height: 15vw;
+    background-color: #68bebc;
+    border-radius: 5%;
+}
+.unit2d {
+    position: absolute;
+    width: 15vw;
+    top: 25vw;
+    right: 32.5vw;
+    height: 10vw;
+    background-color: #68bebc;
+    border-radius: 10%;
+    text-align: center;
+    color: orangered;
+    font-size: 20pt;
+}

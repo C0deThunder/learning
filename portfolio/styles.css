@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #7bcac8;
+    font-family: "kanit", sans-serif;
+}
+h1 {
+    color: orangered;
+    text-align: center;
+    margin: 10px;
+    font-family: "kanit", sans-serif;
+}
+body {
+    font-family: "kanit", sans-serif;
+    color: orangered;
+    text-align: center;
+}
+.parent {
+    position: relative;
+    top: 0;
+    width: 100vw;
+}
+.bg1 {
+    position: relative;
+    top: 0;
+    border: none;
+    width: 100vw;
+    max-height: 100%;
+}
+.name {
+    position: absolute;
+    top: 30%;
+    left: 30vw;
+    width: 40vw;
+    height: 15vw;
+    border: none;
+}
+.navbar {
+    z-index: 10;
+    width: 100vw;
+    height: 8vw;
+    background-color: orangered;
+    position: sticky;
+    top: 0;
+}
+.button {
+    position: absolute;
+    top: 0;
+    left: 25vw;
+    width: 25vw;
+    height: 100%;
+    background-color: orangered;
+    color: black;
+    display: inline-block;
+    font-size: 3vw;
+    border: none;
+    font-family: "kanit", sans-serif;
+}
+.acc {
+    color: #7bcac8;
+}
+.pro {
+    position: absolute;
+    left: 50vw;
+    color: #7bcac8;
+}
+.acc:hover {
+    background-color: #dc3c00;
+}
+.pro:hover {
+    background-color: #dc3c00;
+}
+.links {
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+    height: 20vw;
+}
+.github img{
+    position: absolute;
+    bottom: 0;
+    left: 43vw;
+    width: 5vw;
+    height: 5vw;
+}
+.linkedin img{
+    position: absolute;
+    bottom: 0;
+    right: 43vw;
+    width: 5vw;
+    height: 5vw;
+}
+section {
+    position: relative;
+    max-width: 30vw;
+    top: 5vw;
+    left: 35vw;
+}
